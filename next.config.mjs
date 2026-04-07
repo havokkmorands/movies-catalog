@@ -4,6 +4,7 @@ const repo = "movie-catalog";
 
 const nextConfig = {
   output: "export",
+  trailingSlash: true,
   basePath: isProd ? `/${repo}` : "",
   assetPrefix: isProd ? `/${repo}/` : "",
 };
